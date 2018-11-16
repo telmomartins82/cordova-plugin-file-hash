@@ -1,6 +1,6 @@
 # cordova-plugin-file-hash
 
-# forked from https://github.com/LordKBX/cordova-plugin-file-hash/
+forked from https://github.com/LordKBX/cordova-plugin-file-hash/
 
 This plugin provides file hash functions
 ##Version 0.4.1
