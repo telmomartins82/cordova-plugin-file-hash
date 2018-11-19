@@ -5,8 +5,8 @@
     <description>Cordova FileHash Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,file,hash,file-hash,checksum,cordova-plugin,cordova-plugin-file-hash</keywords>
-    <repo>https://github.com/LordKBX/cordova-plugin-file-hash.git</repo>
-    <issue>https://github.com/LordKBX/cordova-plugin-file-hash/issues</issue>
+    <repo>https://github.com/telmomartins82/cordova-plugin-file-hash.git</repo>
+    <issue>https://github.com/telmomartins82/cordova-plugin-file-hash/issues</issue>
 
     <js-module src="www/FileHash.js" name="FileHash">
         <clobbers target="FileHash" />
@@ -15,13 +15,13 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="FileHash" >
-                <param name="android-package" value="lordkbx.FileHash.FileHash"/>
+                <param name="android-package" value="plugins.FileHash.FileHash"/>
             </feature>
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
         </config-file>
-        <source-file src="src/android/FileHash.java" target-dir="src/lordkbx/FileHash" />
+        <source-file src="src/android/FileHash.java" target-dir="src/plugins/FileHash" />
     </platform>
 
     <!-- ios  -->
