@@ -15,7 +15,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="FileHash" >
-                <param name="android-package" value="plugins.FileHash.FileHash"/>
+                <param name="android-package" value="lordkbx.FileHash.FileHash"/>
             </feature>
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/*">
