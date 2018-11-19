@@ -9,9 +9,6 @@ This plugin provides file hash functions
 |:---:|:---:|
 |&gt;=5.0|&gt;= 8.0|
 
-
-If your intrested i search help for an adaptation on Windows Phone(W10 ?), in that case leave a message [here](https://github.com/LordKBX/cordova-plugin-file-hash/issues)
-
 ###***list of functions***
 |**md2**|**md5**|**sha1**|**sha256**|**sha384**|**sha512**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
